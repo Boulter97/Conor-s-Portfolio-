@@ -1,0 +1,165 @@
+* {box-sizing: border-box;
+   padding: 0;
+   margin: 0;}
+
+body {background-color: #f1f1f1;
+}
+
+.header {padding: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+         background-color: rgb(47, 46, 46);
+         color:black;}
+
+.header h1 {display: inline-block;
+           font-size: 40px;}
+     
+.header nav { 
+    padding-top: 15px;
+    margin-right: 15px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style:oblique; 
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {display: inline-block; 
+                   margin-left: 20px;
+}
+
+a { color: black;
+text-decoration: underline;
+}
+
+h1,
+h2 {
+    color: black;
+}
+p,
+li{ color: black
+}
+li {
+    list-style-type: none;
+}
+
+a:link  { color: black;}
+a:visited  {color: black;}
+
+.assessment-1 {
+    width: 300px;
+height: 200px;
+background-image: url(img/.assessment-1);
+background-size: 50;
+background-repeat: no-repeat;
+border: 5px solid blue;
+transform: scale(1);
+transition: 0.2s all;
+}
+.assessment-1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px blue;
+}
+.assessment-2 {
+width: 300px;
+height: 200px;
+background-image: url(img/.assessment-2);
+background-size: 50;
+background-repeat: no-repeat;
+border: 5px solid blue;
+transform: scale(1);
+transition: 0.2s all;
+}
+.assessment-2:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px blue;
+}
+.assessment-3 {
+width: 300px;
+height: 200px;
+background-image: url(img/.assessment-3);
+background-size: 50;
+background-repeat: no-repeat;
+border: 5px solid blue;
+transform: scale(1);
+transition: 0.2s all;
+}
+.assessment-3:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px blue;
+}
+.assessment-4 {
+width: 300px;
+height: 200px;
+background-image: url(img/.assessmenr-4);
+background-size: 50;
+background-repeat: no-repeat;
+border: 5px solid blue;
+transform: scale(1);
+transition: 0.2s all;
+}
+.assessment-4:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px blue;
+}
+.assessment-5 {
+width: 600px;
+height: 300px;
+background-image: url(img/.assessment-5);
+background-size: 50;
+background-repeat: no-repeat;
+border: 5px solid blue;
+transform: scale(1);
+transition: 0.2s all;
+}
+.assessment-5:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px blue;
+}
+
+.container { position: relative;}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(47, 46, 46);
+    color:black;
+    padding:  20px;
+    min-height:calc(auto);}
+
+
+.footer h2 { display: inline-block; 
+    font-size: 30px;
+}
+
+.footer nav { 
+    padding-top: 15px;
+    margin-right: 15px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+} 
+.footer nav ul {
+    list-style-type: none;
+}
+
+.footer nav ul li {display: inline-block; 
+    margin-left: 20px;
+}
